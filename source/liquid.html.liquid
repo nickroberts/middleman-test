@@ -1,0 +1,15 @@
+---
+title: Testing Liquid
+---
+
+<h1>Testing Liquid</h1>
+
+<p>Hello {{ 'tobi' | upcase }}</p>
+<p>Hello tobi has {{ 'tobi' | size }} letters!</p>
+<p>Hello {{ '*tobi*' | textilize | upcase }}</p>
+<p>Hello {{ 'now' | date: "%Y %h" }}</p>
+
+<p>{% cycle 'one', 'two', 'three' %}</p>
+<p>{% cycle 'one', 'two', 'three' %}</p>
+<p>{% cycle 'one', 'two', 'three' %}</p>
+<p>{% cycle 'one', 'two', 'three' %}</p>

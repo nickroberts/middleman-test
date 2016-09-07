@@ -1,0 +1,20 @@
+---
+title: Welcome to Middleman
+---
+
+<div class="welcome">
+  <div class="logo">
+    <%= image_tag "middleman-logo.svg" %>
+  </div>
+  <h1>Middleman is Running</h1>
+  <p class="doc">
+    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
+  </p><!-- .doc -->
+</div><!-- .welcome -->
+
+<article>
+  <h2><%= lorem.word %></h1>
+  <h6><%= lorem.date %></h6>
+  <h3><%= lorem.first_name %> <%= lorem.last_name %></h3>
+  <%= lorem.sentences 5 %>
+</article>
